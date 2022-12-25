@@ -1,0 +1,39 @@
+body {
+  /* background-image: url(spider2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain; */
+  padding: 0%;
+  margin: 0%;
+  background-color:rgb(52, 52, 57);
+}
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Source+Code+Pro:ital@1&display=swap");
+h1 , h2 {
+  font-family: "Exo 2", sans-serif;
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  font-size: 80px;
+  padding: 20px;
+}
+h2{
+    font-size: 60px; 
+}
+.img{
+    margin: 20px;
+    background-color: gray;
+    display: flex;
+    font-size: 27px;
+}
+p{
+    margin: 20px;
+}
+.points{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+.newpara{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color:rgb(186, 177, 177);
+}
