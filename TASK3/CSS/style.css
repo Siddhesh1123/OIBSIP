@@ -1,1 +1,240 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #dce6fc;
+  display: flex;
+  justify-content: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+h4{
+  font-size: 35px;
+font-family: 'Sevillana', cursive;
+}
 
+.wrapper {
+  margin-top: 150px;
+  width: 100%;
+  height: 600px;
+}
+
+.container {
+  width: 400px;
+  background-color: #242526;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 50px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.input {
+  width: 290px;
+  border: 1px solid #293241;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #17c982;
+}
+
+.list {
+  font-size: 20px;
+  width: 100%;
+}
+
+.list ol {
+  padding: 0px;
+}
+
+.list ol li {
+  font-family: 'EB Garamond', serif;
+  list-style: none;
+  font-weight:500;
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fa-trash-can:hover {
+  color: crimson;
+  cursor: pointer;
+}
+
+.list_section {
+  border: none;
+  background-color: #fff;
+  border-radius: 15px;
+  color: #000;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 5px;
+  background-color: #db6e33;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  width: 60px;
+  justify-content: space-between;
+}
+
+.fa-circle-check,
+.fa-circle-xmark {
+  padding: 2px;
+  color: #000;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.cross {
+  margin-left: 25px;
+}
+
+.fa-circle-check:hover {
+  color: green;
+}
+
+.fa-circle-xmark:hover {
+  color: crimson;
+  text-align: right;
+}
+.BT {
+
+  Width: 60px;
+  padding: 10px 10px;
+  font-size: 20px;
+  border-radius: 100px;
+  border: 9;
+  border: none;
+  background-color: #db540b;
+  cursor: pointer;
+}
+@media (max-width: 980px) {
+  .container{
+    margin: 10px 30px;
+  }
+}
+@media (max-width: 920px) {
+  
+  .container {
+    height: 600px;
+    width: 380px;
+  }
+}
+@media (max-width: 880px) {
+  .container {
+    width: 300px;
+    height: 550px;
+  }
+
+  .input {
+    width: 220px;
+  }
+  .BT{
+    font-size: 19px;
+    margin-left: 5px;
+  }
+}
+@media(max-width: 719px){
+.container{
+  width: 500px;
+}
+.input{
+  width: 380px;
+}
+
+}
+@media (max-width: 680px) {
+  .wrapper {
+    margin-top: 60px;
+  }
+
+  .container {
+    width: 500px;
+    margin-bottom: 10px;
+  }
+
+  .input {
+    width: 290px;
+  }
+
+  .main {
+    width: 80%;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    width: 300px;
+  }
+  h4{
+    font-size: 30px;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .input {
+    width: 200px;
+  }
+
+  .wrapper {
+    height: 600px;
+  }
+    .BT {
+      font-size: 18px;
+    }
+}
+
+
+@media (max-width: 320px) {
+  .container {
+    width: 280px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .wrapper {
+    height: 900px;
+  }
+  .BT{
+    font-size: 15px;
+  }
+}
